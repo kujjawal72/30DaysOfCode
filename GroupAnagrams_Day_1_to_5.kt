@@ -1,3 +1,6 @@
+// Problem Link: https://leetcode.com/problems/group-anagrams
+
+
 class Solution {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
         val mainMap = HashMap<HashMap<Char,Int>,ArrayList<String>>();
